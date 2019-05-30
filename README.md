@@ -14,8 +14,8 @@
 # API
 ###### To Create a user: Send a post request to `localhost:8000/users`
 
-###### To Get a user: Send a get request to `localhost:8000/users/(id of user e.g. 34385835)`
+###### To Get a user: Send a get request to `localhost:8000/users/(username of user e.g. Gninoskcaj)`
 
-###### To update a user: Send a put request to `localhost:8000/users/(id of user e.g. 34385835)`
+###### To update a user: Send a put request to `localhost:8000/users/(username of user e.g. Gninoskcaj)`
 
-###### To delete a user: Send a delete request to `localhost:8000/users/(id of user e.g. 34385835)`
+###### To delete a user: Send a delete request to `localhost:8000/users/((username of user e.g. Gninoskcaj)`
