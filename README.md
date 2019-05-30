@@ -4,7 +4,7 @@
 
 
 2. ```shell
-	$	npm run dev
+	$ npm run dev
 	```
 
 3. Navigate to localhost:8000
