@@ -41,7 +41,7 @@ app.put('/users/:id', (req, res) => {
 })
 
 
-app.delete('/users/:id', (req, res) => {
+app.delete('/users/:username', (req, res) => {
 
 	const data = fs.readFileSync(`./users/${req.params.username}.json`)
 	fs.unlinkSync(`./users/${req.params.username}.json`)
