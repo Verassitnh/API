@@ -1,3 +1,6 @@
+![npm](https://img.shields.io/npm/v/simple-user-api.svg)
+
+
 # Get Started
 
 1. ```shell
