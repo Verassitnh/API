@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const fs = require('fs')
 
-const port = 8000;
+
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
@@ -13,9 +13,15 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 
+if (PORT) {
+	const port = PORT
+	module.exports.port = port
+} else {
+	const port = 8000;
+	module.exports.port = port
+}
 
-
-app.listen(port, () => {
+app.listen(module.exports.port, () => {
 	console.log('We are live on ' + port);
 });
 

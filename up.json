@@ -1,0 +1,36 @@
+{
+	"name": "jikno-api",
+	"profile": "Administrator",
+	"regions": ["us-east-2"],
+	"stages": {
+		"staging": {
+			"domain": "api.jikno.com",
+			"zone": false,
+			"lambda": {
+				"warm": false
+			}
+		},
+		"production": {
+			"domain": "jikno.com",
+			"zone": false,
+			"lambda": {
+				"warm": true,
+				"warm_count": 10
+			}
+		}
+	},
+	"lambda": {
+		"policy": [{
+			"Effect": "Allow",
+			"Resource": "*",
+			"Action": [
+				"dynamodb:Get*",
+				"dynamodb:List*",
+				"dynamodb:PutItem",
+				"dynamodb:DeleteItem",
+				"dynamodb:UpdateItem",
+				"dynamodb:BatchGetItem"
+			]
+		}]
+	}
+}
