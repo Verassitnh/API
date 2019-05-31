@@ -13,7 +13,8 @@
   },
   "keywords": [
     "api",
-    "jikno"
+	"simple api",
+	"user-api"
   ],
   "author": "Jackson Mooring",
   "license": "MIT",
