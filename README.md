@@ -11,7 +11,9 @@
 
 3. Navigate to localhost:8000
 
-**Thats all!**
+
+
+__I use postman to send requests__
 
 # API
 ###### To Create a user: Send a post request to `localhost:8000/users`
