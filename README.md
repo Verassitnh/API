@@ -1,6 +1,8 @@
 # Get Started
 
-1. Clone this repo
+1. ```shell
+	$ npm i simple-user-api
+	```
 
 
 2. ```shell
