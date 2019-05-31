@@ -16,6 +16,21 @@
 __I use postman to send requests__
 
 # API
+Note: when using the api send json in the body of the request.
+
+This is an example user json file. 
+
+```json
+
+"username": "Gninoskcaj",
+"password": "LetMeIn888",
+"email": "jackson.mooring@gmail.com",
+"ProUser": true
+"Bio": "Making examples is not my thing"
+"Example": "text more text so & so & so"
+
+```
+
 ###### To Create a user: Send a post request to `localhost:8000/users`
 
 ###### To Get a user: Send a get request to `localhost:8000/users/(username of user e.g. Gninoskcaj)`
