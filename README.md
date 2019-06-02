@@ -35,10 +35,10 @@ This is an example user json file.
 
 ```
 
-###### To Create a user: Send a post request to `localhost:8000/users`
+###### To Create a user: Send a `Post` request to `localhost:8000/users`
 
-###### To Get a user: Send a get request to `localhost:8000/users/(username of user e.g. Gninoskcaj)`
+###### To Get a user: Send a `Get` request to `localhost:8000/users/(username of user e.g. Gninoskcaj)`
 
-###### To update a user: Send a put request to `localhost:8000/users/(username of user e.g. Gninoskcaj)`
+###### To update a user: Send a `Put` request to `localhost:8000/users/(username of user e.g. Gninoskcaj)`
 
-###### To delete a user: Send a delete request to `localhost:8000/users/((username of user e.g. Gninoskcaj)`
+###### To delete a user: Send a `Delete` request to `localhost:8000/users/((username of user e.g. Gninoskcaj)`
