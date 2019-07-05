@@ -17,7 +17,7 @@
 
 
 
-__I use postman to send requests__
+***Note: I use postman to send requests***
 
 # API
 Note: when using the api send json in the body of the request.
