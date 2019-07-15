@@ -3,4 +3,4 @@
 
 ![NPM](https://img.shields.io/npm/l/simple-user-api.svg)
 
-* [Docs](https://docs.jacksonmooring.com/user-centered-api)
+* See Docs [Here](https://docs.jacksonmooring.com/user-centered-api)
